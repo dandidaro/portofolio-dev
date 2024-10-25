@@ -11,64 +11,79 @@
     
     <link href="./output.css" rel="stylesheet">
 </head>
-<body class="grid grid-cols-1 lg:px-52 md:px-20 px-12 md:py-20 py-12 bg-deepblue font-albertsans space-y-20">
-    <div class="flex flex-row md:flex-nowrap flex-wrap md:space-x-4">
-        <div class="md:basis-3/5 basis-full space-y-4">
-            <div class="flex-row *:basis-full">
-                <h1 class="text-4xl tracking-tighter text-white font-reguler">Dandi Darojat</h1>
-                <p class="text-sm text-white font-extralight">Digital Designer | Frontend Dev</p>
-            </div>
-            <div class="flex-row *:basis-full *:text-sm">
-                <h1 class="text-gray font-light">I love the process of crafting minimalist and pixel-perfect products from scratch</h1>
-                <p class="text-white font-extralight opacity-20">But I hate naming frames</p>
-            </div>
-        </div>
-        <div class="flex md:basis-2/5 basis-full pt-4 items-center">
-            <div class="basis-full space-x-2 *:px-4 *:py-2 *:rounded-md *:duration-200 md:text-right text-left *:text-sm *:font-light">
-                <button class="border border-white text-white hover:bg-bonewhite-200">Connect Me</button>
-                <button class="bg-white text-black hover:bg-gray">My Resume</button>
-            </div>
-        </div>
-    </div>
-    <div class="flex flex-row flex-wrap">
-        <div class="basis-full">
-            <h2 class="text-white">Expertise</h2>
-        </div>
-        <div class="flex basis-full space-x-4">
-            <div class="basis-1/3 border border-gray p-6 text-white relative">
-                <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
-                <div class="basis-full">
-                    <h3 class="text-lg font-bold tracking-tighter">UI & UX Design</h3>
-                    <p class="text-gray">From wireframe throughout prototype, is my day-to-day task</p>
+<body class="bg-deepblue font-albertsans">
+    <div class="relative min-h-screen grid grid-cols-1 lg:px-52 md:px-20 px-12 md:py-20 py-12 space-y-0">
+        <!-- Section 1 - About -->
+        <div class="h-fit flex flex-row md:flex-nowrap flex-wrap md:space-x-4">
+            <div class="md:basis-3/5 basis-full space-y-4">
+                <div class="flex-row *:basis-full">
+                    <h1 class="text-4xl tracking-tighter text-white font-reguler">Dandi Darojat</h1>
+                    <p class="text-white font-extralight">Digital Designer | Frontend Dev</p>
+                </div>
+                <div class="flex-row *:basis-full *:text-md">
+                    <h1 class="text-gray font-light">I love the process of crafting minimalist and pixel-perfect products from scratch</h1>
+                    <p class="text-white font-light opacity-20">But I hate naming frames</p>
                 </div>
             </div>
-
-            <div class="basis-1/3 border border-gray p-6 text-white relative">
-                <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
-                <div class="basis-full">
-                    <h3 class="text-lg font-bold tracking-tighter">UI & UX Design</h3>
-                    <p class="text-gray">From wireframe throughout prototype, is my day-to-day task</p>
+            <div class="flex md:basis-2/5 basis-full pt-4 items-center">
+                <div class="basis-full space-x-2 *:px-4 *:py-2 *:rounded-md *:duration-200 md:text-right text-left *:text-sm *:font-light">
+                    <button class="border border-white text-white hover:bg-bonewhite-200">Connect Me</button>
+                    <button class="bg-white text-black hover:bg-gray">My Resume</button>
                 </div>
             </div>
-
-            <div class="basis-1/3 border border-gray p-6 text-white relative">
-                <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
-                <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
-                <div class="basis-full">
-                    <h3 class="text-lg font-bold tracking-tighter">UI & UX Design</h3>
-                    <p class="text-gray">From wireframe throughout prototype, is my day-to-day task</p>
-                </div>
-            </div>
-
         </div>
+    
+        <!-- Section 2 - Expertise -->
+        <div class="h-fit flex flex-row flex-wrap">
+            <div class="basis-full">
+                <h2 class="text-white pb-4 text-2xl font-medium tracking-tighter">Expertise</h2>
+            </div>
+            <div class="flex basis-full space-x-4">
+                <div class="basis-1/3 border border-gray p-6 text-white relative">
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
+                    <div class="basis-full">
+                        <h3 class="text-lg font-bold tracking-tighter">UI & UX Design</h3>
+                        <p class="text-gray">From wireframe throughout prototype, is my day-to-day task anywhere</p>
+                    </div>
+                </div>
+    
+                <div class="basis-1/3 border border-gray p-6 text-white relative">
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
+                    <div class="basis-full">
+                        <h3 class="text-lg font-bold tracking-tighter">Digital Design</h3>
+                        <p class="text-gray">Capable to do logo, brand imagery, and social media posts design</p>
+                    </div>
+                </div>
+    
+                <div class="basis-1/3 border border-gray p-6 text-white relative">
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
+                    <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
+                    <div class="basis-full">
+                        <h3 class="text-lg font-bold tracking-tighter">Frontend Dev</h3>
+                        <p class="text-gray">Strong in HTML, CSS, and JS. Currently using Tailwind and trying to learn Next.js</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+        <!-- Section 3 - Background 1 -->
+        <div class="absolute top-96"><img src="./assets/images/bg-1.png"></div>
+    
+        <!-- Section 4 - See more -->
+         <div class="flex-row basis-full text-center w-full">
+            <p class="text-bonewhite-200">The background just to make me look cool</p>
+            <p class="text-white">See more below</p>
+         </div>
+
     </div>
     <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
 </body>
