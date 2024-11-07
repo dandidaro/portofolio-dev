@@ -9,20 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     
-    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-deepblue font-albertsans">
-    <div class="relative min-h-screen grid grid-cols-1 lg:px-52 md:px-20 px-12 md:py-20 py-12 space-y-0">
+    <div class="relative grid grid-cols-1 xl:px-52 lg:px-40 md:px-20 px-12 md:py-20 py-12 space-y-16">
         <!-- Section 1 - About -->
         <div class="h-fit flex flex-row md:flex-nowrap flex-wrap md:space-x-4">
             <div class="md:basis-3/5 basis-full space-y-4">
                 <div class="flex-row *:basis-full">
-                    <h1 class="text-4xl tracking-tighter text-white font-reguler">Dandi Darojat</h1>
+                    <h1 class="text-3xl tracking-tighter text-white font-reguler">Dandi Darojat</h1>
                     <p class="text-white font-extralight">Digital Designer | Frontend Dev</p>
                 </div>
                 <div class="flex-row *:basis-full *:text-md">
                     <h1 class="text-gray font-light">I love the process of crafting minimalist and pixel-perfect products from scratch</h1>
-                    <p class="text-white font-light opacity-20">But I hate naming frames</p>
+                    <p class="text-white font-light opacity-10">But I hate naming frames</p>
                 </div>
             </div>
             <div class="flex md:basis-2/5 basis-full pt-4 items-center">
@@ -36,53 +36,224 @@
         <!-- Section 2 - Expertise -->
         <div class="h-fit flex flex-row flex-wrap">
             <div class="basis-full">
-                <h2 class="text-white pb-4 text-2xl font-medium tracking-tighter">Expertise</h2>
+                <h2 class="text-white pb-4 text-xl font-medium tracking-tighter">Expertise</h2>
             </div>
-            <div class="flex basis-full space-x-4">
-                <div class="basis-1/3 border border-gray p-6 text-white relative">
+            <div class="flex basis-full flex-wrap sm:flex-nowrap space-x-0 md:space-x-4 space-y-4 md:space-y-0">
+                <div class="basis-full md:basis-1/3 border border-gray p-6 text-white relative">
                     <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
                     <div class="basis-full">
-                        <h3 class="text-lg font-bold tracking-tighter">UI & UX Design</h3>
-                        <p class="text-gray">From wireframe throughout prototype, is my day-to-day task anywhere</p>
+                        <h3 class="text-lg font-semibold tracking-tighter">UI & UX Design</h3>
+                        <p class="text-gray tracking-tight">From wireframe throughout prototype, is my day-to-day task anywhere</p>
                     </div>
                 </div>
     
-                <div class="basis-1/3 border border-gray p-6 text-white relative">
+                <div class="basis-full md:basis-1/3 border border-gray p-6 text-white relative">
                     <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
                     <div class="basis-full">
-                        <h3 class="text-lg font-bold tracking-tighter">Digital Design</h3>
-                        <p class="text-gray">Capable to do logo, brand imagery, and social media posts design</p>
+                        <h3 class="text-lg font-semibold tracking-tighter">Digital Design</h3>
+                        <p class="text-gray tracking-tight">Capable to do logo, brand imagery, and social media posts design</p>
                     </div>
                 </div>
     
-                <div class="basis-1/3 border border-gray p-6 text-white relative">
+                <div class="basis-full md:basis-1/3 border border-gray p-6 text-white relative">
                     <div class="border border-gray w-2 h-2 absolute -left-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -top-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -left-1 -bottom-1 bg-deepblue"></div>
                     <div class="border border-gray w-2 h-2 absolute -right-1 -bottom-1 bg-deepblue"></div>
                     <div class="basis-full">
-                        <h3 class="text-lg font-bold tracking-tighter">Frontend Dev</h3>
-                        <p class="text-gray">Strong in HTML, CSS, and JS. Currently using Tailwind and trying to learn Next.js</p>
+                        <h3 class="text-lg font-semibold tracking-tighter">Frontend Dev</h3>
+                        <p class="text-gray tracking-tight">Strong in HTML, CSS, and JS. Currently learning Tailwind and Next.js</p>
                     </div>
                 </div>
     
             </div>
         </div>
     
-        <!-- Section 3 - Background 1 -->
-        <div class="absolute top-96"><img src="./assets/images/bg-1.png"></div>
-    
-        <!-- Section 4 - See more -->
-         <div class="flex-row basis-full text-center w-full">
-            <p class="text-bonewhite-200">The background just to make me look cool</p>
+        <!-- Section 3 - See more -->
+        <div class="flex-row basis-full text-center w-full items-center space-y-1">
+            <p class="text-white opacity-10">The background just to make me look cool</p>
             <p class="text-white">See more below</p>
-         </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="size-6 mx-auto">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+            </svg>      
+        </div>
+
+        <!-- Section 4 - Selected Works -->
+        <div class="h-fit flex flex-row flex-wrap py-20">            
+            <h2 class="text-white pb-4 text-xl font-medium tracking-tighter">Selected works</h2>
+
+            <!-- Row 1 -->
+            <div class="flex basis-full flex-wrap sm:flex-nowrap space-x-0 md:space-x-4 space-y-4 md:space-y-0 *:duration-200 pb-4">
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-dummy.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:mb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">Epployee App</h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</span>
+                    </div>
+                </div>
+
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-dummy.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:mb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">Distric Studio Web</h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">Designer & Developer</p>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">HTML</span>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">CSS</span>
+                        <span class="hidden sm:block px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">JS</span>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Bootstrap</span>
+                    </div>
+                </div>
+
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-4.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:mb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">My Own Web</h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">Designer & Developer</p>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</span>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">HTML</span>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Tailwind</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="hidden sm:flex basis-full flex-wrap sm:flex-nowrap space-x-0 md:space-x-4 space-y-4 md:space-y-0 *:duration-200">
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-dummy.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:pb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">ACLC Web</h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <span class="px-3 py-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</span>
+                    </div>
+                </div>
+
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-dummy.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:mb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">Raccit.in <span class="font-extralight opacity-30">(Fake Project)</span></h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</span>
+                    </div>
+                </div>
+
+                <div class="basis-full md:basis-1/3 border border-white border-opacity-20 p-2 text-white relative rounded-lg hover:border-opacity-80 ">
+                    <img src="./assets/images/work-dummy.png" class="max-h-40 w-full object-cover rounded-md">
+                    <div class="basis-full p-2 *:mb-1">
+                        <h3 class="text-lg font-semibold tracking-tighter">SupplyStore <span class="font-extralight opacity-30">(Fake Project)</span></h3>
+                        <p class="text-md text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <span class="px-3 py-1 pb-1 text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5 - Experiences -->
+        <div class="h-fit flex flex-row flex-wrap py-20 gap-10">            
+            <!-- Column 1 -->
+            <div class="flex-col flex-grow flex-wrap md:flex-nowrap md:space-y-4 space-y-4 *:duration-200">
+                <h2 class="text-white text-xl font-medium tracking-tighter">Experiences</h2>
+                <div class="flex flex-row flex-wrap md:flex-nowrap space-y-2">
+                    <div class="hidden sm:block basis-full md:basis-1/4 content-center text-white text-sm opacity-20">May 2023 - present</div>
+                    <div class="flex-grow border border-white border-opacity-20 p-4 text-white relative rounded-lg space-y-1">
+                        <div class="block sm:hidden basis-full md:basis-1/4 content-center text-white text-sm opacity-20">May 2023 - present</div>
+                        <h3 class="text-md font-semibold tracking-tighter">UI & UX Designer</h3>
+                        <p class="text-sm text-white font-light opacity-40 tracking-tight">at Prima Vista Solusi</p>
+                        <div class="flex flex-row gap-2">
+                            <div class="px-3 py-2 content-center leading-none text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row flex-wrap md:flex-nowrap space-y-2">
+                    <div class="hidden sm:block basis-full md:basis-1/4 content-center text-white text-sm opacity-20">Jan - Des 2022</div>
+                    <div class="flex-grow border border-white border-opacity-20 p-4 text-white relative rounded-lg space-y-1">
+                        <div class="block sm:hidden basis-full md:basis-1/4 content-center text-white text-sm opacity-20">Jan - Des 2022</div>
+                        <h3 class="text-md font-semibold tracking-tighter">Product & Graphic Designer </h3>
+                        <p class="text-sm text-white font-light opacity-40 tracking-tight">at Komisi Pemberantasan Korupsi (KPK)</p>
+                        <div class="flex flex-row gap-2">
+                            <div class="px-3 py-2 content-center leading-none text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row flex-wrap md:flex-nowrap space-y-2">
+                    <div class="hidden sm:block basis-full md:basis-1/4 content-center text-white text-sm opacity-20">Nov 2021 - present</div>
+                    <div class="flex-grow border border-white border-opacity-20 p-4 text-white relative rounded-lg space-y-1">
+                        <div class="block sm:hidden basis-full md:basis-1/4 content-center text-white text-sm opacity-20">Nov 2021 - present</div>
+                        <h3 class="text-md font-semibold tracking-tighter">UI & UX Designer</h3>
+                        <p class="text-sm text-white font-light opacity-40 tracking-tight">at Epployee</p>
+                        <div class="flex flex-row gap-2">
+                            <div class="px-3 py-2 content-center leading-none text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-row flex-wrap md:flex-nowrap space-y-2">
+                    <div class="hidden sm:block basis-full md:basis-1/4 content-center text-white text-sm opacity-20">May - Aug 2020</div>
+                    <div class="flex-grow border border-white border-opacity-20 p-4 text-white relative rounded-lg space-y-1">
+                        <div class="sm:hidden block basis-full md:basis-1/4 content-center text-white text-sm opacity-20">May - Aug 2020</div>
+                        <h3 class="text-md font-semibold tracking-tighter">UI Designer Intern at Cognixy</h3>
+                        <p class="text-sm text-white font-light opacity-40 tracking-tight">at Cognixy</p>
+                        <div class="flex flex-row gap-2">
+                            <div class="px-3 py-2 content-center leading-none text-sm text-gray bg-white bg-opacity-10 rounded-full">Figma</div>
+                            <div class="px-3 py-2 content-center leading-none text-sm text-gray bg-white bg-opacity-10 rounded-full">Python</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="flex-col basis-full sm:basis-2/5 flex-wrap sm:flex-nowrap space-y-4 *:duration-200">
+                <h2 class="text-white text-xl font-medium tracking-tighter">Others</h2>
+                <div class="flex flex-row border border-white border-opacity-20 p-4 text-white relative rounded-lg">
+                    <div class="flex-grow">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Founder</p>
+                        <h3 class="text-md font-semibold tracking-tighter">Distric Studio</h3>
+                    </div>
+                    <div class="text-right content-center flex-auto">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">2024</p>
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Side project</p>
+                    </div>
+                </div>
+                <div class="flex flex-row border border-white border-opacity-20 p-4 text-white relative rounded-lg">
+                    <div class="flex-grow">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">UI & UX Consultant</p>
+                        <h3 class="text-md font-semibold tracking-tighter">ACLC KPK</h3>
+                    </div>
+                    <div class="text-right content-center flex-auto">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Oct 23 - Nov 24</p>
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Freelance</p>
+                    </div>
+                </div>
+                <div class="flex flex-row border border-white border-opacity-20 p-4 text-white relative rounded-lg">
+                    <div class="flex-grow">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <h3 class="text-md font-semibold tracking-tighter">XL Apps (Web)</h3>
+                    </div>
+                    <div class="text-right content-center flex-auto">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Feb - Mar 23</p>
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Project-based</p>
+                    </div>
+                </div>
+                <div class="flex flex-row border border-white border-opacity-20 p-4 text-white relative rounded-lg">
+                    <div class="flex-grow">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">UI & UX Designer</p>
+                        <h3 class="text-md font-semibold tracking-tighter">PNM Data Management</h3>
+                    </div>
+                    <div class="text-right content-center flex-auto">
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Apr 2023</p>
+                        <p class="text-sm text-white font-light opacity-20 tracking-tight">Project-based</p>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
 
     </div>
     <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
